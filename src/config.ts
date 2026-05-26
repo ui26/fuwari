@@ -9,7 +9,7 @@ import type {
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
-const customDomain = "2x.nz";
+const customDomain = "word.1026000.xyz";
 
 export const siteConfig: SiteConfig = {
 	customDomain,
@@ -69,10 +69,7 @@ export const siteConfig: SiteConfig = {
 			//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		},
 	],
-	officialSites: [
-		{ url: "https://acofork.com", alias: "CN" },
-		{ url: `https://${customDomain}`, alias: "Global" },
-	],
+	officialSites: [],
 	server: [
 		{ url: "", text: "Blog" },
 		{ url: `https://u.${customDomain}`, text: "Umami" },
