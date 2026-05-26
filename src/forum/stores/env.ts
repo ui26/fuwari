@@ -8,7 +8,7 @@ export const FORUM_API_CUSTOM_BASE_URL_STORAGE_KEY =
 	"forum-api-custom-base-url";
 
 export const FORUM_API_BASE_URLS: Record<ForumApiEnv, string> = {
-	prod: "https://i.2x.nz",
+	prod: "https://forum.waterace.workers.dev/",
 	dev: "http://127.0.0.1:8787",
 };
 
